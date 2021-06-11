@@ -115,7 +115,13 @@ For example, ['Alphabet', 'alphabet', 'carrot', 'Zebra'] is correctly sorted, an
 ------------------------------------------------------------------------------------------------ */
 
 const alphabetizeBetter = (arr) => {
-  // Solution code here...
+  arr.forEach(str => {str.toLowerCase();}); // Converting the string to lowercase
+  return arr.sort((a, b) => {
+    if (a.charCodeAt(0) > b.charCodeAt(0)) {
+      return 1;
+    }
+    else {return -1;}
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
