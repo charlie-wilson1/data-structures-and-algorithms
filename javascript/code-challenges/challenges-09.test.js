@@ -132,10 +132,7 @@ const characters = [
 ];
 
 const getHouses = (arr) => {
-  let houses = arr.map(house => {
-    return house.house;
-  });
-  return houses;
+  return arr.map(house => house.house);
 };
 
 /*------------------------------------------------------------------------------------------------
@@ -151,20 +148,8 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  let thing = Object.values(arr).map( house => { // using object.value to map through each of the array of arrays, returning from it only the children.
-    return house.children;
-  });
-
-  let hasName = false; // setting a boolean variable
-
-  for (let i = 0; i < thing.length - 2; i++){
-    if (thing[i].includes(character)) { // if the array of arrays at the specific array contains the string anywhere in the array, return true
-      hasName = true;
-      break;
-    }
-    else hasName = false; //else just return false
-  }
-  return hasName; // returning the boolean result
+  return !!Object.values(arr).find( x => x.name === character).children; // using object.value to map through each of the array of arrays
+  // the bang bang at the beginning lets you refer to truthy or falsey.
 };
 
 /* ------------------------------------------------------------------------------------------------
