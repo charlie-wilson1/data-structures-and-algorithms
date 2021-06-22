@@ -117,27 +117,7 @@ Here is sample data for the 9:00 sales: { sales: '88 cookies', time: '9 a.m.' }.
 Write a function named salesData that uses forEach to iterate over the hourlySales array and create an object for each hour. Return an array of the formatted data.
 ------------------------------------------------------------------------------------------------ */
 
-const salesData = (hours, data) => {
-  //initialize empty arr
-  let hourlySales = [];
-
-  //make an empty space for every hour in the array, later to be replaced. Must have these initial values so that the forEach loop knows how many times to splice.
-  for (let i = 0; i < hours.length; i++) {
-    hourlySales.push('');
-  }
-
-  //for each value in hourlySales, we create a new object with key value pairs that contain parameter data, then splice(replace) that new object into the index of arrVal.
-  hourlySales.forEach(arrVal => {
-    let newObj = {
-      sales: `${data[hourlySales.indexOf(arrVal)]} cookies`,
-      time: hours[hourlySales.indexOf(arrVal)],
-    };
-    hourlySales.splice(hourlySales.indexOf(arrVal), 1, newObj);
-    return newObj;
-  });
-
-  return hourlySales;
-};
+const salesData = (hours, data) => hours.map((hr, i) => ({time: hr, sales: `${data[i]} cookies` }));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6¡
@@ -183,7 +163,7 @@ The top row of the board is considered row zero and row numbers increase as they
 ------------------------------------------------------------------------------------------------ */
 
 const battleship = (board, row, col) => {
-  //  Solution code here...
+  return board[row][col].includes('#') ? 'hit' : 'miss';
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -319,7 +299,7 @@ describe('Testing challenge 6', () => {
   });
 });
 
-xdescribe('Testing challenge 7', () => {
+describe('Testing challenge 7', () => {
   const battleshipData = [
     ['#', ' ', '#', ' '],
     ['#', ' ', '#', ' '],
