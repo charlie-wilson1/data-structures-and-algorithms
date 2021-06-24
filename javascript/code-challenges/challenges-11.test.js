@@ -156,17 +156,9 @@ let starWarsData = [{
 }];
 
 let findMaleAndFemale = (data) => {
-  let genderArr = data.filter(obj => obj.gender === 'male' || obj.gender === 'female');
-  let ansString = '';
-  genderArr.forEach(obj => {
-    ansString += `${obj.name} and `;
-  });
-  let splitString = ansString.split(' ');
-  splitString.pop();
-  splitString.pop();
-  let str = splitString.toString();
-  let ans = str.replace(/,/g, ' ');
-  return ans;
+  return data.filter(c => /^(fe)?male$/.test(c.gender)) // filtering whether or not c.gender is male or female
+    .map(c => c.name)
+    .join(' and ');
 };
 
 /* ------------------------------------------------------------------------------------------------
