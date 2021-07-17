@@ -1,0 +1,16 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.exe
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.deps.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.runtimeconfig.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.runtimeconfig.dev.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\ref\nodes.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\bin\Debug\net5.0\nodes.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.csproj.AssemblyReference.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.csproj.CoreCompileInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\ref\nodes.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\c-sharp\nodes\nodes\obj\Debug\net5.0\nodes.genruntimeconfig.cache
