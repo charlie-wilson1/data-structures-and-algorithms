@@ -12,7 +12,8 @@ namespace nodes
       ll.Insert(7);
       ll.Print();
       bool hasNum = ll.Includes(6);
-      if (hasNum == true) Console.WriteLine("Number 6 found.");
+      if (hasNum == true) Console.WriteLine("Number found.");
+      else Console.WriteLine("Number not found.");
       }
     }
 }
