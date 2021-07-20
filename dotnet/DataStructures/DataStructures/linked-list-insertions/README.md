@@ -9,5 +9,6 @@ This project is an addition to the previously created linked list functions inse
 
 - Append: Add a Node value to the very end of the list (just before the tail).
 
+
 ## Whiteboard -
 ![Whiteboard](./CodeChallenge06.PNG)
