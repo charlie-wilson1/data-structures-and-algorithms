@@ -109,27 +109,27 @@ namespace DataStructures.Classes
         }
 
 
-    public void insertAfter(Node target, int newVal)
-        {
-        Node newNode = new Node(newVal);
-        Node current = Head;
-        // iterates over the linkedlist
-        while(current != target)
-        {
-        // if current node is equal to target
-        if (current == target)
-        {
-            // Store original next value
-            Node oldNext = current.Next;
-            // Set current Next value to the new Node
-            current.Next = newNode;
-            // Set the new Node's value to the original next value of target, to contiue linked list
-            newNode.Next = oldNext;
+        public void insertAfter(Node target, int newVal)
+            {
+            Node newNode = new Node(newVal);
+            Node current = Head;
+            // iterates over the linkedlist
+            while(current != target)
+            {
+            // if current node is equal to target
+            if (current == target)
+            {
+                // Store original next value
+                Node oldNext = current.Next;
+                // Set current Next value to the new Node
+                current.Next = newNode;
+                // Set the new Node's value to the original next value of target, to contiue linked list
+                newNode.Next = oldNext;
+            }
+            current = current.Next;
+            }
+            throw new Exception("Could not recognize given node value.");
         }
-        current = current.Next;
-        }
-        throw new Exception("Could not recognize given node value.");
-    }
 
         public bool Includes(int val)
         {
@@ -139,6 +139,33 @@ namespace DataStructures.Classes
             current = current.Next;
         }
         return false;
+        }
+
+        public int kthFromEnd(int k)
+        {
+            int length = -1; // setting length to be 0th indexed.
+            Node current = Head; // starting value for current.
+
+            if (Head == null) return -1;
+
+            // Incrementing length until we have the proper number.
+            while ( current != null )
+            {
+                length++;
+                current = current.Next;
+            }
+
+            //check if k is in range.
+            if (k > length | k < 0) return -2;
+
+            // resetting the current value back to beginning.
+            // iterate until we reach the kth value from the end.
+            current = Head;
+            for (int i = length; i >= k; i--)
+            {
+                current = current.Next;
+            }
+            return current.Value;
         }
     }
 }

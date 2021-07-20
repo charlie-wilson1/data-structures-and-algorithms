@@ -14,6 +14,7 @@ namespace DataStructuresTest
       LinkedList list = new LinkedList();
       Assert.NotNull(list);
     }
+
     [Fact]
     public void ProofOfHeadAndNext()
     {
@@ -24,6 +25,7 @@ namespace DataStructuresTest
       Assert.Equal(9, list.Head.Value);
       Assert.Equal(6, list.Head.Next.Value);
     }
+
     [Fact]
     public void ProofOfInsertAndList()
     {
@@ -34,6 +36,7 @@ namespace DataStructuresTest
       Assert.True(list.Includes(6));
       Assert.False(list.Includes(12));
     }
+
     [Fact]
     public void ProofOflistAndPrint()
     {
@@ -43,6 +46,7 @@ namespace DataStructuresTest
       list.Insert(9);
       Assert.Equal("(9) -> (6) -> (3) -> NULL", list.Print());
     }
+
     [Fact]
     public void ProofOfInsertBefore()
     {
@@ -56,5 +60,39 @@ namespace DataStructuresTest
       list.InsertBefore(9, 15);
       Assert.Equal("(15) -> (9) -> (12) -> (6) -> (3) -> NULL", list.Print());
     }
+
+    [Fact]
+    public void ProofOfKthIndex()
+    {
+        public void ProofOfkth()
+    {
+      LinkedList list = new LinkedList();
+      list.Insert(3);
+      list.Insert(6);
+      list.Insert(9);
+      list.Insert(12);
+      list.Insert(15);
+      list.Insert(18);
+      Assert.Equal(12, list.kthFromEnd(4));
+    }
+    [Fact]
+    public void ProofOfkthOutOfRange()
+    {
+      LinkedList list = new LinkedList();
+      list.Insert(3);
+      list.Insert(6);
+      list.Insert(9);
+      list.Insert(12);
+      list.Insert(15);
+      list.Insert(18);
+      Assert.Equal(-1, list.kthFromEnd(10));
+    }
+    [Fact]
+    public void ProofOfkthNoList()
+    {
+      LinkedList list = new LinkedList();
+      Assert.Equal(-2, list.kthFromEnd(10));
+    }
+	  }
   }
 }

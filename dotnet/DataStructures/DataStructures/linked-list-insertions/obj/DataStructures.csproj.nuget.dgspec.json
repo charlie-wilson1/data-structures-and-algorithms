@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\DataStructures.csproj": {}
+    "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\linked-list-insertions\\DataStructures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\DataStructures.csproj": {
+    "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\linked-list-insertions\\DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\DataStructures.csproj",
+        "projectUniqueName": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\linked-list-insertions\\DataStructures.csproj",
         "projectName": "DataStructures",
-        "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\DataStructures.csproj",
+        "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\linked-list-insertions\\DataStructures.csproj",
         "packagesPath": "C:\\Users\\Jona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\obj\\",
+        "outputPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\linked-list-insertions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
