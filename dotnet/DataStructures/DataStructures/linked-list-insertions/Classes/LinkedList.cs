@@ -22,8 +22,8 @@ namespace DataStructures.Classes
             while (current != null)
             {
 
-                write = $"( {current.Value} ) ->";
-                Console.WriteLine(write);
+                write = $"( {current.Value} ) -> ";
+                Console.Write(write);
                 current = current.Next;
             }
             Console.Write("NULL\n");
@@ -143,29 +143,18 @@ namespace DataStructures.Classes
 
         public int kthFromEnd(int k)
         {
-            int length = -1; // setting length to be 0th indexed.
             Node current = Head; // starting value for current.
 
             if (Head == null) return -1;
-
-            // Incrementing length until we have the proper number.
-            while ( current != null )
+            int i = 0;
+            while (current != null)
             {
-                length++;
-                current = current.Next;
+                while (i <= k)
+                {
+                    i++;
+                }
             }
-
-            //check if k is in range.
-            if (k > length | k < 0) return -2;
-
-            // resetting the current value back to beginning.
-            // iterate until we reach the kth value from the end.
-            current = Head;
-            for (int i = length; i >= k; i--)
-            {
-                current = current.Next;
-            }
-            return current.Value;
+            return 0;
         }
     }
 }

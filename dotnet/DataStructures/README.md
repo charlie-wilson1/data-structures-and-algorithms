@@ -8,4 +8,5 @@
 [README for array-binary-search](./DataStructures/array-binray-search/README.md)<br>
 [README for fibonnaci](./DataStructures/fibonacci/README.md) <br>
 [README for linked-list-insertions](./DataStructures/linked-list-insertions/README.md)
-[README for linked-list-kth](./DataStructures/linked-list-kth/README.md)
+[README for linked-list-kth](./DataStructures/linked-list-kth/README.md) <br>
+[README for linked-list-zip](./DataStructures/linked-list-zip/README.md)
