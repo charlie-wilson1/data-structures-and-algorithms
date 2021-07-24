@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace stackandqueue.Classes
 {
-  class Queue<T>
+  public class Queue<T>
   {
     public Node<T> Front { get; set; }
 
@@ -14,21 +14,22 @@ namespace stackandqueue.Classes
 
     //where the front is.
 
-    public Node<T> Peek()
+    public T Peek()
     {
-      if (Front.Equals(null)) throw new NullReferenceException();
-      return Front;
+      if (Front == null) throw new NullReferenceException();
+      return Front.Value;
     }
 
     public bool IsEmpty()
     {
-      return Front != null;
+      if (Front == null) return true;
+      else return false;
     }
 
     public void Enqueue(T val)
     {
       Node<T> node = new Node<T>(val);
-      if (Front.Equals(null))
+      if (Front == null)
       {
         Front = node;
       }
@@ -37,18 +38,21 @@ namespace stackandqueue.Classes
         // The back node's next is now the new node.
         Back.Next = node;
       }
+      // The back will be the node that is enqueued no matter what.
       Back = node;
     }
 
-    public Node<T> Dequeue()
+    public T Dequeue()
     {
+      if (Front == null) throw new NullReferenceException();
+
       Node<T> currentFront = Front;
 
       // move the queue back one node (similar to pop)
-
       Front = Front.Next;
 
-      return currentFront;
+      // return the value of the node that we dequeued.
+      return currentFront.Value;
     }
   }
 }

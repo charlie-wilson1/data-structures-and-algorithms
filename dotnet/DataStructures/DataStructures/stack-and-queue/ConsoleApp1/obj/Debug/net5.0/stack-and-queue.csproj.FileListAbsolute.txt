@@ -1,0 +1,15 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.exe
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.deps.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.runtimeconfig.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.runtimeconfig.dev.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\ref\stack-and-queue.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\bin\Debug\net5.0\stack-and-queue.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.csproj.CoreCompileInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\ref\stack-and-queue.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.genruntimeconfig.cache

@@ -13,7 +13,7 @@ namespace stackandqueue.Classes
 
     public Node(T value) // constructor for node that allows you to set the value.
     {
-      Value.Equals(value);
+      Value = value;
     }
     // example: Node mynode = new Node(5); this can be used in other class definitions.
   }
