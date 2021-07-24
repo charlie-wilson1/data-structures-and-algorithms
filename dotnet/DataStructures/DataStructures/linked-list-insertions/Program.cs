@@ -7,36 +7,36 @@ namespace DataStructures
     {
       static void Main(string[] args)
       {
-        Node head = new Node(5); // creates node with a value
-        LinkedList ll = new LinkedList(); //initialize linked list
+        Node<int> head = new Node<int>(5); // creates node with a value
+        LinkedList<int> ll = new LinkedList<int>(); //initialize linked list
         ll.Insert(6); //create a new node with a value of 6. Insert at the beginning.
         ll.Insert(7);
         ll.Print();
         bool hasNum = ll.Includes(6);
         if (hasNum == true) Console.WriteLine("Number found.");
 
-      LinkedList list1 = new LinkedList();
+      LinkedList<int> list1 = new LinkedList<int>();
         list1.Insert(9);
         list1.Insert(7);
         list1.Insert(5);
         list1.Insert(3);
         list1.Insert(1);
-        Console.WriteLine(list1.Head.Value);
         list1.Print();
 
 
-      LinkedList list2 = new LinkedList();
+      LinkedList<int> list2 = new LinkedList<int>();
         list2.Insert(8);
         list2.Insert(6);
         list2.Insert(4);
         list2.Insert(2);
         list2.Print();
 
+
       }
-      public static string ZipLists(LinkedList list1, LinkedList list2)
+      public static string ZipLists(LinkedList<int> list1, LinkedList<int> list2)
       {
-        Node current1 = list1.Head;
-        Node current2 = list2.Head;
+        Node<int> current1 = list1.Head;
+        Node<int> current2 = list2.Head;
         if (current1 == null || current2 == null)
         {
           throw new Exception("Sorry something was wrong with the lists provided");
@@ -44,7 +44,7 @@ namespace DataStructures
         while (current1 != null && current2 != null)
         {
           // Store list1 next Node for later usage
-          Node storedNext = current1.Next;
+          Node<int> storedNext = current1.Next;
 
           // Point current list1 next to list 2
           current1.Next = current2;
@@ -64,5 +64,23 @@ namespace DataStructures
         }
         return list1.Print();
       }
+
+    static void QFun()
+    {
+      Queue<string> myFam = new Queue<string>();
+
+      myFam.Enqueue("Jona");
+      myFam.Enqueue("Simon");
+      myFam.Enqueue("Larry");
+      myFam.Enqueue("Maeta");
+
+      Console.WriteLine("----------- QUEUE-----------");
+
+      while (myFam.Peek()) // While we are still able to peek, do this.
+      {
+        Node<string> person = myFam.Dequeue();
+        Console.WriteLine(person);
+      }
     }
+  }
 }
