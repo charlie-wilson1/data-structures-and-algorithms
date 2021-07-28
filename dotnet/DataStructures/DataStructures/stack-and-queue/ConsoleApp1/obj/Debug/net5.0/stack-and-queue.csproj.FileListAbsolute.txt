@@ -13,3 +13,4 @@ C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures
 C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\ref\stack-and-queue.dll
 C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.pdb
 C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.genruntimeconfig.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\stack-and-queue\ConsoleApp1\obj\Debug\net5.0\stack-and-queue.csproj.AssemblyReference.cache

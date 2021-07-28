@@ -18,7 +18,6 @@ namespace stackandqueue.Classes
 
     public void Push(T val)
     {
-      Console.WriteLine(val);
       // Create a new node, with type T.
       Node<T> node = new Node<T>(val);
 
