@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DataStructures\stack-and-queue\CodeChallenge15\CodeChallenge15.csproj" />
+    <ProjectReference Include="..\..\CodeChallenge\CodeChallenge15\CodeChallenge15.csproj" />
   </ItemGroup>
 
 </Project>

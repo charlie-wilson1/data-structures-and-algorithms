@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\stack-and-queue\\CodeChallenge15\\CodeChallenge15.csproj",
+      "projectUniqueName": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge15\\CodeChallenge15.csproj",
       "projectName": "CodeChallenge15",
-      "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\stack-and-queue\\CodeChallenge15\\CodeChallenge15.csproj",
+      "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge15\\CodeChallenge15.csproj",
       "packagesPath": "C:\\Users\\Jona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\stack-and-queue\\CodeChallenge15\\obj\\",
+      "outputPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge15\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
