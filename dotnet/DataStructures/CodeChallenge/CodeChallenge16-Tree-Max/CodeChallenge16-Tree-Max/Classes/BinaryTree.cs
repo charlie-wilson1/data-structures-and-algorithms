@@ -29,7 +29,6 @@ namespace CodeChallenge16_Tree_Max.Classes
           CurrentMax = temp;
         }
       }
-
       // send back to local max.
       return CurrentMax;
     }
