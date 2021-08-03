@@ -5919,8 +5919,8 @@
     },
     "CodeChallenge15/1.0.0": {
       "type": "project",
-      "path": "../../DataStructures/stack-and-queue/CodeChallenge15/CodeChallenge15.csproj",
-      "msbuildProject": "../../DataStructures/stack-and-queue/CodeChallenge15/CodeChallenge15.csproj"
+      "path": "../../CodeChallenge/CodeChallenge15/CodeChallenge15.csproj",
+      "msbuildProject": "../../CodeChallenge/CodeChallenge15/CodeChallenge15.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5964,8 +5964,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\stack-and-queue\\CodeChallenge15\\CodeChallenge15.csproj": {
-              "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructures\\stack-and-queue\\CodeChallenge15\\CodeChallenge15.csproj"
+            "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge15\\CodeChallenge15.csproj": {
+              "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge15\\CodeChallenge15.csproj"
             }
           }
         }
