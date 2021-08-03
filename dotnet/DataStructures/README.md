@@ -13,5 +13,5 @@
 [README for stacks-and-queues](./DataStructures/stack-and-queue/README.md) <br>
 [README for stacks-queues-bracket](./CodeChallenge/CodeChallenge13-Stack-Queue-Brackets/README.md) <br>
 [README for tree](./CodeChallenge/CodeChallenge15/README.md) <br>
-[README for tree-breadth-first](./CodeChallenge/CodeChallenge17/README.md)
+[README for tree-breadth-first](./CodeChallenge/CodeChallenge17-tree-breadth-first/README.md)
 
