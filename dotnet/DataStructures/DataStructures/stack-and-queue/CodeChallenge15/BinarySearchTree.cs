@@ -7,7 +7,7 @@ using stackandqueue.Classes;
 
 namespace stackandqueue
 {
-    class BinarySearchTree<T> : BinaryTree<T> where T : IComparable
+    public class BinarySearchTree<T> : BinaryTree<T> where T : IComparable
     {
     //Make a node out of that value
     // `1. If we do not have root, make that node root and be finished
