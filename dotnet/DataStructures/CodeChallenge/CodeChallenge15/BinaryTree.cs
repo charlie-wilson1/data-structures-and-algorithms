@@ -42,7 +42,24 @@ namespace stackandqueue
               vals.Add(root.Value);
             }
         return vals;
-          
         }
+    public List<Node<int>> LevelOrderTraversal(Node<int> root)
+    {
+      // Create a new list.
+      List<Node<int>> list = new List<Node<int>>();
+      Queue<Node<int>> q = new Queue<Node<int>>();
+      q.Enqueue(root);
+      
+      while (q.Count > 0)
+      {
+        Node<int> current = q.Dequeue();
+        if (current == null) continue; // negates the value from being created if null.
+        q.Enqueue(current.Left);
+        q.Enqueue(current.Right);
+
+        list.Add(current);
+      }
+      return list;
+    }
     }
 }
