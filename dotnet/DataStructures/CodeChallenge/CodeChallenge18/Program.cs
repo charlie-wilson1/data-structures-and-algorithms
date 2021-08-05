@@ -8,53 +8,20 @@ namespace CodeChallenge18
   {
     static void Main(string[] args)
     {
+      KaryTree<int> IntTree = new KaryTree<int>(10);
+
+      IntTree.Root.Value = 10;
+      IntTree.Root.Children.Add(new Node<int>(10));
+      IntTree.Root.Children.Add(new Node<int>(3));
+      IntTree.Root.Children.Add(new Node<int>(15));
+
+      KaryTree<string> StringTree = IntTree.FizzBuzz(IntTree);
+
+      foreach (Node<string> val in StringTree.Root.Children)
+      {
+        Console.WriteLine($"{val.Value} ");
+      }
     }
 
-    public KaryTree<string> FizzBuzz(KaryTree<int> IntTree, KaryTree<string> StringTree)
-    {
-      if (IntTree.Root != null)
-      {
-      addValues(IntTree.Root, StringTree.Root);
-      }
-      return StringTree;
-    }
-
-      public void addValues(Node<int> IntTarget, Node<string> StringTarget)
-      {
-        Node<string> n = Convert(IntTarget);
-        StringTarget = n;
-        if (IntTarget.Children == null) return;
-
-        foreach(Node<int> intChild in IntTarget.Children)
-        {
-          Node<string> stringChild = new Node<string>("");
-          StringTarget.Children.Add(stringChild);
-          addValues(intChild, stringChild);
-        }
-      }
-
-    public Node<string> Convert(Node<int> node)
-    {
-      if ((node.Value % 3 == 0) && (node.Value % 5 == 0))
-      {
-        Node<string> val = new Node<string>(node.Value.ToString("fizzbuzz"));
-        return val;
-      }
-      else if (node.Value % 3 == 0)
-      {
-        Node<string> val = new Node<string>(node.Value.ToString("fizz"));
-        return val;
-      }
-      else if (node.Value % 5 == 0)
-      {
-        Node<string> val = new Node<string>(node.Value.ToString("fizz"));
-        return val;
-      }
-      else
-      {
-        Node<string> val = new Node<string>(node.Value.ToString());
-        return val;
-      }
-    }
   }
 }
