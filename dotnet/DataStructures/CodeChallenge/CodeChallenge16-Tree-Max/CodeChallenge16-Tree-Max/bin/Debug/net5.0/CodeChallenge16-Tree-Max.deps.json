@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CodeChallenge16-Tree-Max/1.0.0": {
+        "runtime": {
+          "CodeChallenge16-Tree-Max.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeChallenge16-Tree-Max/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

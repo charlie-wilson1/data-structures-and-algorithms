@@ -1,0 +1,5 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge17-tree-breadth-first\obj\Debug\net5.0\CodeChallenge17-tree-breadth-first.csproj.AssemblyReference.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge17-tree-breadth-first\obj\Debug\net5.0\CodeChallenge17-tree-breadth-first.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge17-tree-breadth-first\obj\Debug\net5.0\CodeChallenge17-tree-breadth-first.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge17-tree-breadth-first\obj\Debug\net5.0\CodeChallenge17-tree-breadth-first.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge17-tree-breadth-first\obj\Debug\net5.0\CodeChallenge17-tree-breadth-first.csproj.CoreCompileInputs.cache
