@@ -41,6 +41,10 @@ namespace stackandqueue
               vals = PostOrderTraversal(root.Right, vals);
               vals.Add(root.Value);
             }
+            else
+            {
+                
+            }
         return vals;
         }
     public List<Node<int>> LevelOrderTraversal(Node<int> root)
