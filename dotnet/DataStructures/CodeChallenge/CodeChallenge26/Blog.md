@@ -1,5 +1,7 @@
 # Insertion Sort - A step by step guide by Jona Brown and Chaz Bofferding
 
+![Whiteboard](./CodeChallenge26Whiteboard.PNG)
+
 ## Problem Domain: Given an array of integers, sort each int within the array from smallest to largest.
 Here is our pseudo code -
 ``` cs
