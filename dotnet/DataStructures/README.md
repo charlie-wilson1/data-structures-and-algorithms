@@ -15,4 +15,5 @@
 [README for tree](./CodeChallenge/CodeChallenge15/README.md) <br>
 [README for tree-breadth-first](./CodeChallenge/CodeChallenge17-tree-breadth-first/README.md) <br>
 [README for tree-fizz-buzz](./CodeChallenge/CodeChallenge18/README.md) <br>
-[README for insertion-sort](./CodeChallenge/ChodeChallenge26/Blog.md)
+[README for insertion-sort](./CodeChallenge/ChodeChallenge26/Blog.md) <br>
+[README for quick-sort](./CodeChallenge/CodeChallenge28/Blog.md)
