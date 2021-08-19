@@ -8,8 +8,6 @@ namespace CodeChallenge26.Main
 {
   public class Insert
   {
-    int[] thing { get; set; }
-
     public int[] InsertionSort(int[] arr)
     {
       if (arr == null || arr.Length == 0)

@@ -1,0 +1,16 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.exe
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.deps.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.runtimeconfig.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.runtimeconfig.dev.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\ref\CodeChallenge28.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\bin\Debug\net5.0\CodeChallenge28.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.csproj.AssemblyReference.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.csproj.CoreCompileInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\ref\CodeChallenge28.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\CodeChallenge28\obj\Debug\net5.0\CodeChallenge28.genruntimeconfig.cache
