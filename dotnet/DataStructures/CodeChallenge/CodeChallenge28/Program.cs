@@ -2,13 +2,13 @@ using System;
 
 namespace CodeChallenge28
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-      int[] arr = { 5, 7, 8, 3, 6, 2 };
-      int[] ans = (QuickSort(arr, arr[0], arr[arr.Length - 1]));
-      foreach(int num in ans)
+      int[] arr = { 7, 2, 1, 6, 8, 5, 3, 4 };
+      var sorted = QuickSort(arr, 0, arr.Length);
+      foreach(var num in sorted)
       {
         Console.WriteLine(num);
       }
@@ -16,36 +16,47 @@ namespace CodeChallenge28
 
         public static int[] QuickSort(int[] arr, int start, int end)
         {
-            if (start >= end)
+            if (arr.Length == 0)
+            {
+               return null;
+            }
+            else if (arr.Length == 1)
+            {
+              return arr;
+            }
+
+            // When there are more than two ints in the arr..
+            if (start < end)
             {
                 int pivotIndex = Partition(arr, start, end);
-                QuickSort(arr, start, pivotIndex - 1);
+                QuickSort(arr, start, pivotIndex);
                 QuickSort(arr, pivotIndex + 1, end);
             }
-      return arr;
+        return arr;
         }
 
         public static int Partition(int[] arr, int start, int end)
-    {
-      int pivot = arr[end];
-      int swapIndex = start;
+        {
+          int pivot = arr[start];
+          int swapIndex = start;
 
-      for(int i = start; i < end; i++)
-      {
-        if (arr[i] <= pivot)
-        {
-          swap(arr, arr[i], arr[swapIndex]);
-          swapIndex++;
+          for(int i = start + 1; i < end; i++)
+          {
+            if (arr[i] < pivot)
+            {
+              swapIndex++;
+              swap(arr, i, swapIndex);
+            }
+          }
+          swap(arr, swapIndex, start);
+          return swapIndex;
         }
-      }
-      swap(arr, arr[swapIndex], pivot);
-      return swapIndex;
-    }
-        public static void swap(int[] arr, int a, int b)
+
+        public static void swap( int[] arr, int i, int j)
         {
-          int temp = arr[a];
-          arr[a] = arr[b];
-          arr[b] = temp;
+          int temp = arr[i];
+          arr[i] = arr[j];
+          arr[j] = temp;
         }
     }
 }
