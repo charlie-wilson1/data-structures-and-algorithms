@@ -1,0 +1,16 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.exe
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.deps.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.runtimeconfig.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.runtimeconfig.dev.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\ref\hash-table.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\bin\Debug\net5.0\hash-table.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.csproj.AssemblyReference.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.csproj.CoreCompileInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\ref\hash-table.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\hash-table\hash-table\obj\Debug\net5.0\hash-table.genruntimeconfig.cache
