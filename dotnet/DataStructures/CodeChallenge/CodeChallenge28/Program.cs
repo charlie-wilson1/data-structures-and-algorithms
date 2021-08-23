@@ -32,7 +32,7 @@ namespace CodeChallenge28
                 QuickSort(arr, start, pivotIndex);
                 QuickSort(arr, pivotIndex + 1, end);
             }
-        return arr;
+          return arr;
         }
 
         public static int Partition(int[] arr, int start, int end)
