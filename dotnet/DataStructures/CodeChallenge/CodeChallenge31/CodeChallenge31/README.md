@@ -2,7 +2,7 @@
 Given a string, find the first repeated word inside the string and return it to the user.
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+![Whiteboard](./CodeChallenge31.PNG)
 
 ## Approach & Efficiency
 O(n) linear time as well as O(n) linear space.
