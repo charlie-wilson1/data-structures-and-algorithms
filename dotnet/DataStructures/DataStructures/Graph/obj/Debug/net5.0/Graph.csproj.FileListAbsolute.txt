@@ -1,0 +1,16 @@
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.exe
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.deps.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.runtimeconfig.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.runtimeconfig.dev.json
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\ref\Graph.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\bin\Debug\net5.0\Graph.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.csproj.AssemblyReference.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.AssemblyInfoInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.AssemblyInfo.cs
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.csproj.CoreCompileInputs.cache
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\ref\Graph.dll
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.pdb
+C:\Users\Jona\Desktop\CF401\data-structures-and-algorithms\dotnet\DataStructures\DataStructures\Graph\obj\Debug\net5.0\Graph.genruntimeconfig.cache
