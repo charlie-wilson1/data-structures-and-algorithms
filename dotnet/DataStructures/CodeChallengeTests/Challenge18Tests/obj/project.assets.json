@@ -5939,11 +5939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\Challenge18Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\Challenge18Tests.csproj",
       "projectName": "Challenge18Tests",
-      "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\Challenge18Tests.csproj",
+      "projectPath": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\Challenge18Tests.csproj",
       "packagesPath": "C:\\Users\\Jona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\obj\\",
+      "outputPath": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallengeTests\\Challenge18Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5964,8 +5964,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj": {
-              "projectPath": "C:\\Users\\Jona\\Desktop\\CF401\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj"
+            "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj": {
+              "projectPath": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj"
             }
           }
         }

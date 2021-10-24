@@ -21,7 +21,9 @@ namespace CodeChallenge33
           newArr[1] = entry.Value;
           if (right.ContainsKey(entry.Key))
           {
+
             newArr[2] = right.GetValueOrDefault(entry.Key);
+
           }
           joined.Add(newArr);
         }
