@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge31Tests", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge33", "CodeChallenge33\CodeChallenge33.csproj", "{FD7EFFBA-CE1D-4899-BCEF-2E26FDB3ED30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge33Tests", "..\CodeChallengeTests\CodeChallenge33Tests\CodeChallenge33Tests.csproj", "{22209556-3515-4562-B662-08036942103D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge33Tests", "..\CodeChallengeTests\CodeChallenge33Tests\CodeChallenge33Tests.csproj", "{22209556-3515-4562-B662-08036942103D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbersLC", "AddTwoNumbersLC\AddTwoNumbersLC.csproj", "{B3552715-2546-4820-AE3D-6A5922C77931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{22209556-3515-4562-B662-08036942103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22209556-3515-4562-B662-08036942103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22209556-3515-4562-B662-08036942103D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3552715-2546-4820-AE3D-6A5922C77931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3552715-2546-4820-AE3D-6A5922C77931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3552715-2546-4820-AE3D-6A5922C77931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3552715-2546-4820-AE3D-6A5922C77931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
