@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodeChallenge16-Tree-Max\CodeChallenge16-Tree-Max\CodeChallenge16-Tree-Max.csproj" />
+    <ProjectReference Include="..\CodeChallenge18\CodeChallenge18.csproj" />
   </ItemGroup>
 
 </Project>

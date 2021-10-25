@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/CodeChallenge16-Tree-Max.dll": {}
         }
+      },
+      "CodeChallenge18/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CodeChallenge18.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeChallenge18.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../CodeChallenge16-Tree-Max/CodeChallenge16-Tree-Max/CodeChallenge16-Tree-Max.csproj",
       "msbuildProject": "../CodeChallenge16-Tree-Max/CodeChallenge16-Tree-Max/CodeChallenge16-Tree-Max.csproj"
+    },
+    "CodeChallenge18/1.0.0": {
+      "type": "project",
+      "path": "../CodeChallenge18/CodeChallenge18.csproj",
+      "msbuildProject": "../CodeChallenge18/CodeChallenge18.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CodeChallenge16-Tree-Max >= 1.0.0"
+      "CodeChallenge16-Tree-Max >= 1.0.0",
+      "CodeChallenge18 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +76,9 @@
           "projectReferences": {
             "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge16-Tree-Max\\CodeChallenge16-Tree-Max\\CodeChallenge16-Tree-Max.csproj": {
               "projectPath": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge16-Tree-Max\\CodeChallenge16-Tree-Max\\CodeChallenge16-Tree-Max.csproj"
+            },
+            "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj": {
+              "projectPath": "C:\\Users\\Jona\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\CodeChallenge\\CodeChallenge18\\CodeChallenge18.csproj"
             }
           }
         }
