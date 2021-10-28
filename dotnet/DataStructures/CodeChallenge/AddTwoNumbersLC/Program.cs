@@ -34,28 +34,28 @@ namespace AddTwoNumbersLC
       Node<int> fourthNode = new();
 
           Node<int> originalNode1 = node1;
-          node1.val = 2;
+          node1.val = 9;
 
           node1.next = secondNode;
-          node1.next.val = 4;
+          node1.next.val = 9;
           node1 = node1.next;
 
           node1.next = thirdNode;
-          node1.next.val = 3;
+          node1.next.val = 9;
           node1 = node1.next;
 
           node1.next = fourthNode;
-      node1.next.val = 8;
+      node1.next.val = 9;
 
           Node<int> originalNode2 = node2;
-          node2.val = 5;
+          node2.val = 9;
 
           node2.next = secondNode2;
-          node2.next.val = 6;
+          node2.next.val = 9;
           node2 = node2.next;
 
           node2.next = thirdNode2;
-          node2.next.val = 4;
+          node2.next.val = 9;
 
           Node<int> ans = AddTwoNumbers(originalNode1, originalNode2);
           while(ans != null)
@@ -81,6 +81,13 @@ namespace AddTwoNumbersLC
           while (node2 != null)
           {
             sumNode.val = node2.val + carryOver;
+            carryOver = 0;
+            if ( sumNode.val >= 10)
+            {
+              carryOver = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val/ 10)));
+              // round local sum
+              sumNode.val = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val % 10)));
+            }
             node2 = node2.next;
             if (node2 != null)
             {
@@ -95,6 +102,13 @@ namespace AddTwoNumbersLC
           while (node != null)
           {
             sumNode.val = node.val + carryOver;
+            carryOver = 0;
+            if ( sumNode.val >= 10)
+            {
+              carryOver = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val/ 10)));
+              // round local sum
+              sumNode.val = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val % 10)));
+            }
             node = node.next;
             if (node != null)
             {
@@ -117,7 +131,7 @@ namespace AddTwoNumbersLC
           if (localSum >= 10)
           {
             // Make the carryover value the mod of 10.
-            carryOver = Convert.ToInt32(localSum / 10);
+            carryOver = Convert.ToInt32(Math.Floor(localSum / 10));
             // round local sum
             localSum = Math.Floor(localSum % 10);
           }
