@@ -8,7 +8,7 @@ namespace CodeChallenge33
 {
   class CC33
   {
-    public List<string[]> LeftJoin(Dictionary<string,string> left, Dictionary<string,string> right)
+    public static List<string[]> LeftJoin(Dictionary<string,string> left, Dictionary<string,string> right)
       {
       List<string[]> joined = new();
 
