@@ -32,6 +32,11 @@ namespace AddTwoNumbersLC
           Node<int> thirdNode2 = new();
 
       Node<int> fourthNode = new();
+      Node<int> fourthNode2 = new();
+
+      Node<int> fifthNode2 = new();
+      Node<int> sixthNode2 = new();
+      Node<int> seventhNode2 = new();
 
           Node<int> originalNode1 = node1;
           node1.val = 9;
@@ -55,6 +60,22 @@ namespace AddTwoNumbersLC
           node2 = node2.next;
 
           node2.next = thirdNode2;
+          node2.next.val = 9;
+          node2 = node2.next;
+
+          node2.next = fourthNode2;
+          node2.next.val = 9;
+          node2 = node2.next;
+
+          node2.next = fifthNode2;
+          node2.next.val = 9;
+          node2 = node2.next;
+
+          node2.next = sixthNode2;
+          node2.next.val = 9;
+          node2 = node2.next;
+
+          node2.next = seventhNode2;
           node2.next.val = 9;
 
           Node<int> ans = AddTwoNumbers(originalNode1, originalNode2);
