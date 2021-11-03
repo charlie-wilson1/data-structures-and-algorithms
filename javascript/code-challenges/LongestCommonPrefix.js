@@ -23,5 +23,4 @@ const containsLongestCommonPrefix = (strs) => {
   return ans;
 };
 
-console.log(containsLongestCommonPrefix(strArr));
 
