@@ -126,7 +126,7 @@ const isCapitalized = (str) => {
 
   wordArr.forEach((word) => {
     let ans = /[A-Z]\w+/g.test(word);
-    if(ans === true) {
+    if(ans) {
       if(word.includes(',')) {
         let something = word.replace(',', '');
         caps.push(something);
@@ -152,10 +152,12 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 const citiesAtoJ = (arr) => {
   let newArr = [];
   arr.forEach( city => {
+    // since we are testing, if testing is true then the ans var becomes bool.
     let ans = /^[A-J]\w+$/.test(city);
-    if (ans === true) {
-      newArr.push(city);
-    }
+    // if (ans === true) {
+    //   newArr.push(city);
+    // }
+    ans ? newArr.push(city) : [] ;
   });
   return newArr;
 };
