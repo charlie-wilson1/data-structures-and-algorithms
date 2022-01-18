@@ -1,14 +1,14 @@
 using System;
 
-namespace CodeChallenge28
+namespace _3Sum
 {
-    public class Program
+    public class ProgramTwo
     {
         static void Main(string[] args)
         {
       int[] arr = { 7, 2, 1, 6, 8, 5, 3, 4 };
       var sorted = QuickSort(arr, 0, arr.Length);
-      foreach(var num in sorted)
+      foreach(int num in sorted)
       {
         Console.WriteLine(num);
       }
@@ -45,14 +45,14 @@ namespace CodeChallenge28
             if (arr[i] < pivot)
             {
               swapIndex++;
-              swap(arr, i, swapIndex);
+              Swap(arr, i, swapIndex);
             }
           }
-          swap(arr, swapIndex, start);
+          Swap(arr, swapIndex, start);
           return swapIndex;
         }
 
-        public static void swap( int[] arr, int i, int j)
+        public static void Swap( int[] arr, int i, int j)
         {
           int temp = arr[i];
           arr[i] = arr[j];

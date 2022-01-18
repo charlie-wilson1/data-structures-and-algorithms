@@ -7,7 +7,7 @@ namespace CodeChallenge31
     {
         static void Main(string[] args)
         {
-      string a = "Hello World I have news for you. World";
+      string a = "Hello World I have news for you.";
 
       Challenge c = new Challenge();
 

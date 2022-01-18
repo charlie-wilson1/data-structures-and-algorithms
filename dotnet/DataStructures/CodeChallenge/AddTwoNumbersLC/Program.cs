@@ -131,6 +131,7 @@ namespace AddTwoNumbersLC
               sumNode.val = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val % 10)));
             }
             node = node.next;
+            // If the next node is not null, initialize a brand new node.
             if (node != null)
             {
               sumNode.next = new Node<int>();

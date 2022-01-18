@@ -1,0 +1,15 @@
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.exe
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.deps.json
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.runtimeconfig.json
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.runtimeconfig.dev.json
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.dll
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\ref\3Sum.dll
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\bin\Debug\net5.0\3Sum.pdb
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.AssemblyInfoInputs.cache
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.AssemblyInfo.cs
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.csproj.CoreCompileInputs.cache
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.dll
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\ref\3Sum.dll
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.pdb
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.genruntimeconfig.cache
