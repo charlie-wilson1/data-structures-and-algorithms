@@ -74,13 +74,13 @@ namespace _3Sum
             {
                return null;
             }
-            if (arr.Length == 1)
+            else if (arr.Length == 1)
             {
               return arr;
             }
 
             // When there are more than two ints in the arr..
-            if (start < end)
+            else if (start < end)
             {
                 int pivotIndex = Partition(arr, start, end);
                 QuickSort(arr, start, pivotIndex);

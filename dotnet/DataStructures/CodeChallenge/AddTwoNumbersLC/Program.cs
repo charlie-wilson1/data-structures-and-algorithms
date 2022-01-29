@@ -93,6 +93,7 @@ namespace AddTwoNumbersLC
       Node<int> sumNode = new();
       Node<int> firstNode = sumNode;
 
+      // BELOW CODE CAN BE REFACTORED TO HAVE SINGLE FUNCTION
       // While both node 1 and 2's next are not null..
       do
       {
@@ -105,7 +106,7 @@ namespace AddTwoNumbersLC
             carryOver = 0;
             if ( sumNode.val >= 10)
             {
-              carryOver = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val/ 10)));
+              carryOver = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val / 10)));
               // round local sum
               sumNode.val = Convert.ToInt32(Math.Floor(Convert.ToDouble(sumNode.val % 10)));
             }
@@ -153,9 +154,9 @@ namespace AddTwoNumbersLC
           if (localSum >= 10)
           {
             // Make the carryover value the mod of 10.
-            carryOver = Convert.ToInt32(Math.Floor(localSum / 10));
+            carryOver = Convert.ToInt32(Math.Floor(localSum % 10)); // reversed this with local sum (the mod operation..needs a test)
             // round local sum
-            localSum = Math.Floor(localSum % 10);
+            localSum = Math.Floor(localSum / 10);
           }
 
           sumNode.val = Convert.ToInt32(localSum);
