@@ -9,15 +9,15 @@
 // If end of recursive call is reached without returning false, return true. 
 // this problem is considered pre-order traversal as the root node is visited first, then left, then right.
 
-function TreeNode(val, left, right) {
+class TreeNode(val, left, right) {
   this.val = (val === undefined ? 0 : val);
   this.left = (left === undefined ? 0: left);
   this.right = (right === undefined ? 0: right);
 }
 
 const isSameTree = function(p, q) {
+  
   // isSame will be used and returned at the very end of the call stack.
-  var isSame = true;
   recursiveCall(p, q, isSame);
   return isSame;
 };

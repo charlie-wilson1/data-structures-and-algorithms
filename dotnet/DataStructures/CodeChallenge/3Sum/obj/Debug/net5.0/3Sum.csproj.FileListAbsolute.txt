@@ -13,3 +13,4 @@ C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\
 C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\ref\3Sum.dll
 C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.pdb
 C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.genruntimeconfig.cache
+C:\Users\Jona\source\repos\data-structures-and-algorithms\dotnet\DataStructures\CodeChallenge\3Sum\obj\Debug\net5.0\3Sum.csproj.AssemblyReference.cache

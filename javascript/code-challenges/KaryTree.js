@@ -1,0 +1,4 @@
+
+function KaryTree(intTree, stringTree) {
+
+}

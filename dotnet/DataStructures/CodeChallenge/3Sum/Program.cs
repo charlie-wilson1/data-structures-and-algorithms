@@ -7,8 +7,7 @@ namespace _3Sum
     {
         static void Main(string[] args)
         {
-          Console.WriteLine("Test");
-
+        Console.Write("Test");
         }
 
     public static List<List<int>>  ThreeSum(int[] arr, int target)
@@ -23,33 +22,46 @@ namespace _3Sum
          * is same as index, skip it (in order to prevent duplicates).
         */
 
-        if (i > 0 && arr[i] == arr[i - 1]) continue;
-
-        int l = i + 1;
-        int r = arr.Length;
-
-        while (l < r)
+        if (i > 0 && arr[i] == arr[i - 1])
         {
-          // ifsum of l, r and i greater than target, move r backwards 1.
-          if (arr[i] + arr[l] + arr[r] > target)
-          {
-            r--;
-          }
-          // if sum of l, r and i lesser than target, move r backwards 1.
-          else if (arr[i] + arr[l] + arr[r] < target)
-          {
-            l++;
-          }
-          else
-          {
-            // Create list, add all numbers that sum to target.
-            List<int> solutionSet = new List<int>();
-            solutionSet.Add(arr[i]);
-            solutionSet.Add(arr[l]);
-            solutionSet.Add(arr[r]);
+          continue;
+        }
+        else
+        {
 
-            // add solutionSet to ans
-            ans.Add(solutionSet);
+          int l = i + 1;
+          int r = arr.Length;
+
+          while (l < r)
+          {
+            // if sum of l, r and i greater than target, move r backwards 1.
+            int tempSum = arr[i] + arr[l] + arr[r];
+            if (tempSum > target)
+            {
+              r--;
+            }
+            // if sum of l, r and i lesser than target, move r backwards 1.
+            else if (tempSum < target)
+            {
+              l++;
+            }
+            else
+            {
+              // Create list, add all numbers that sum to target.
+              List<int> solutionSet = new List<int>();
+              solutionSet.Add(arr[i]);
+              solutionSet.Add(arr[l]);
+              solutionSet.Add(arr[r]);
+
+              // add solutionSet to ans
+              ans.Add(solutionSet);
+              // increment left pointer by 1. continue checking for cases even after finding a solution set.
+              l++;
+              while ((arr[l] == arr[l - 1]) && (l < r))
+              {
+                l++;
+              }
+            }
           }
         }
       }
