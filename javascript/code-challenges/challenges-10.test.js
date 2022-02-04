@@ -288,7 +288,6 @@ describe('Testing challenge 5', () => {
       { sales: '161 cookies', time: '7 p.m.' },
       { sales: '169 cookies', time: '8 p.m.' }
     ]);
-
     expect(salesData(hoursOpen, grandTotal(cookieStores)).length).toStrictEqual(hoursOpen.length);
   });
 });
