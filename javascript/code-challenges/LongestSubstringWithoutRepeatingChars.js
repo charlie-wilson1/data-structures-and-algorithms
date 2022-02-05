@@ -31,4 +31,5 @@ var lengthOfLongestSubstring = function (s) {
 };
 
 let s = 'Test';
+
 lengthOfLongestSubstring(s);
