@@ -38,4 +38,33 @@
     // set a "next" var to secondpointer.next.next 
     // set secondpointer.next var to "next"
     // return original head
+    };
+
+    function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
+        //set a node prior to head node that will be the beginning of the "trailing" node.
+        let dummyNode: ListNode = new ListNode(0, head);
+        
+        //make current node the head. This is the node that will go until the end.
+        let currentNode: ListNode = head;
+        
+        // trailing node will lag behind the nth distance behind current.
+        let trailingNode: ListNode = dummyNode;
+        
+        // Setting the proper lag amount for the trailing node.
+        while (n !== 0 && currentNode) {
+            currentNode = currentNode.next;
+            n--;
+        }
+        
+        // After correct distance is set, find the correct node.
+        while (currentNode) {
+            currentNode = currentNode.next;
+            trailingNode = trailingNode.next;
+        }
+        
+        // delete the node in front of trailing node.
+        trailingNode.next = trailingNode.next.next;
+        
+        return dummyNode.next;
+    };
 };
