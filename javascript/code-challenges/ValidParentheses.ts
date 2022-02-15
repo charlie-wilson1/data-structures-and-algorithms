@@ -5,8 +5,8 @@ function isValid(s: string): boolean {
     iterate through each character in string.
     if character is an opening bracket, then push it onto string.
     
-    else if character is closing bracket, check if previous value in array is
-     the corresponding opening bracket.
+    else if character is closing bracket, check if previous value in array i
+    the corresponding opening bracket.
 
     if it is the corresponding bracket, then remove the opening bracket 
     from the stack and continue as normal.
