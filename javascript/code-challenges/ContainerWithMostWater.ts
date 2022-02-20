@@ -49,13 +49,33 @@ const Motus: Band = {
     bandMembers: 7
 }
 
-function maxAreaOptimal(height: number): number {
+function maxAreaOptimal(height: number[]): number{
 
+    let largestArea = 0;
+    
+    let l = 0;
+    let r = height.length - 1;
+    
+    while (l < r) {
+        console.log(height[l])
+        console.log(height[r]);
+        let minHeight = getMin(height[l], height[r]);
+        let area = minHeight * (r - l);
+        if (area > largestArea) largestArea = area;
+        
+        if (height[l] >= height[r]) r--;
+        else l++;
+    }
+    return largestArea;
+};
 
-    let maxArea = 0;
-
-
-    return maxArea;
+function getMin(height1, height2): number {
+    // height1 <= height2 ? return height1 : return height2;
+    
+    if (height1 <= height2){
+      return height1;  
+    } 
+    else return height2;
 
 }
 
