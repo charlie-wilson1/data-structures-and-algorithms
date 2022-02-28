@@ -34,21 +34,6 @@ function maxAreaBruteForce(height: number[]): number {
     
 };
 
-
-interface Band {
-    bandName: string;
-    BudgetAmount: number;
-
-    // may also add any additional type or property for what you'd like.
-    [key: string]: any;
-
-}
-const Motus: Band = {
-    bandName: 'Motus',
-    BudgetAmount: 100,
-    bandMembers: 7
-}
-
 function maxAreaOptimal(height: number[]): number{
 
     let largestArea = 0;
@@ -71,12 +56,10 @@ function maxAreaOptimal(height: number[]): number{
 
 function getMin(height1, height2): number {
     // height1 <= height2 ? return height1 : return height2;
-    
     if (height1 <= height2){
       return height1;  
     } 
     else return height2;
-
 }
 
 function getMin(height1, height2): number {

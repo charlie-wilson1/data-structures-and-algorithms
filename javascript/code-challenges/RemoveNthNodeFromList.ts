@@ -51,7 +51,7 @@
         let trailingNode: ListNode = dummyNode;
         
         // Setting the proper lag amount for the trailing node.
-        while (n !== 0 && currentNode) {
+        while (n !== 0 && currentNode != null) {
             currentNode = currentNode.next;
             n--;
         }
