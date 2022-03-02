@@ -5,6 +5,7 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
 /**
  * @param {ListNode} head
  * @param {number} n
@@ -13,7 +14,6 @@
  var removeNthFromEnd = function: ListNode(head: ListNode, n: ListNode) {
 
     // METHOD ONE: TWO PASSES
-    
     // set head to current
     // initialize maxCounter
     // while current not null, iterate through LL and increment counter.
@@ -61,7 +61,6 @@
             currentNode = currentNode.next;
             trailingNode = trailingNode.next;
         }
-        
         // delete the node in front of trailing node.
         trailingNode.next = trailingNode.next.next;
         

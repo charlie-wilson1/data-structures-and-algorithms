@@ -6,7 +6,6 @@ namespace LongestSubstringWithoutRepeatingCharacters
 
   public class Solution
   {
-
     public static void LongestSubstringWithoutRepeatingCharacters(string[] args)
     {
       string s = "abccdefg";
@@ -22,7 +21,6 @@ namespace LongestSubstringWithoutRepeatingCharacters
 
       List<int> checkerList = new List<int>();
 
-
       // loop through substring
       // if we are not on the first int of the array, loop backwards from the given int with each iteration.
       // while we are not at the very beginning of the array (within the backwards loop)
@@ -30,7 +28,9 @@ namespace LongestSubstringWithoutRepeatingCharacters
       // check whether or not the current int already exists within the list.
       // If it does, then if the list.length is greater than the current counter number we established above, make the counter the length of the list. exit out of the backwards loop.
 
-      // else append int to the list and continue within the backwards loop.
+      // else append int to the list and continue within the backwards loop until another character appears OR the backwards loop reaches the end.
+      // O(n^2) is the time complexity.
+      // O(n) for space.
 
       return counter;
     }

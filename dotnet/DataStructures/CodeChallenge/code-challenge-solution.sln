@@ -40,7 +40,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "3Sum\3Sum.csproj", "{9FE57901-970D-41B8-8BE9-3A08AFA3142B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{4F5394F8-6B6A-4697-8261-D7FCE423D2FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{4F5394F8-6B6A-4697-8261-D7FCE423D2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxDepthBinaryTree", "MaxDepthBinaryTree\MaxDepthBinaryTree.csproj", "{D71C1B3D-DD70-47BF-BEC6-1FEBAFBB265D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +118,10 @@ Global
 		{4F5394F8-6B6A-4697-8261-D7FCE423D2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5394F8-6B6A-4697-8261-D7FCE423D2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5394F8-6B6A-4697-8261-D7FCE423D2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71C1B3D-DD70-47BF-BEC6-1FEBAFBB265D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71C1B3D-DD70-47BF-BEC6-1FEBAFBB265D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71C1B3D-DD70-47BF-BEC6-1FEBAFBB265D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71C1B3D-DD70-47BF-BEC6-1FEBAFBB265D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
